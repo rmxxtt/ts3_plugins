@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\teamspeak">
+      <UniqueIdentifier>{f5b96843-e722-486e-854d-baac880efd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\teamlog">
+      <UniqueIdentifier>{655c5f67-62ff-476f-af9e-87ffb0c04c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\icons">
+      <UniqueIdentifier>{48d322f2-c345-4edd-ae5e-48e1805b54b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ts3_functions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="clientlib_publicdefinitions.h">
+      <Filter>Файлы заголовков\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="public_definitions.h">
+      <Filter>Файлы заголовков\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="public_errors.h">
+      <Filter>Файлы заголовков\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="public_errors_rare.h">
+      <Filter>Файлы заголовков\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="public_rare_definitions.h">
+      <Filter>Файлы заголовков\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_definitions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="logtypes.h">
+      <Filter>Файлы заголовков\teamlog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.png">
+      <Filter>Файлы ресурсов\icons</Filter>
+    </Image>
+    <Image Include="2.png">
+      <Filter>Файлы ресурсов\icons</Filter>
+    </Image>
+    <Image Include="3.png">
+      <Filter>Файлы ресурсов\icons</Filter>
+    </Image>
+    <Image Include="t.png">
+      <Filter>Файлы ресурсов\icons</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
